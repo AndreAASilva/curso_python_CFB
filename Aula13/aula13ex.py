@@ -19,7 +19,7 @@ else:
     print(f'O {cor} é o líder com {pt_cor}')
     
 pontuacao = [pt_pal, pt_fla, pt_cor]
-pontuacao.sort(reverse=False)
+pontuacao.sort(reverse=True)
 
 print(pontuacao[0], pontuacao[1], pontuacao[2])        
     
